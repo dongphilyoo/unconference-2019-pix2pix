@@ -2,7 +2,7 @@
 ITP 2019 Unconference Pix2Pix Workshop
 
 
-# pix2pix
+# [pix2pix](#Demo)
 Use Spell to train a pix2pix model, run the model in tensorflow.js and ml5.js
 
 ## Demo:
