@@ -192,6 +192,7 @@ Yining Shi's training process tutorial<br/>
 ### Resources
 [Spell Documentation](https://www.spell.run/docs/home)<br/>
 [NVIDIA pix2pixHD](https://github.com/NVIDIA/pix2pixHD)<br/>
+[NVIDIA vid2vid (Pytorch)](https://github.com/NVIDIA/vid2vid)<br/>
 [pix2pix tensorflow implementation](https://affinelayer.com/pix2pix/)<br/>
 [ml5.js pix2pix](https://ml5js.org/docs/Pix2Pix)<br/>
 [Medium Post](https://medium.com/@dongphilyoo/how-to-train-pix2pix-model-and-generating-on-the-web-with-ml5-js-87d879fb4224)<br/>
