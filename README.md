@@ -2,7 +2,7 @@
 ITP 2019 Unconference Pix2Pix Workshop
 
 ### [Pix2Pix](#Pix2Pix)
-### [Data Preperation](#Create-own-dataset)
+### [Data Preparation](#Create-own-dataset)
 ### [Training Pix2Pix](#Training)
 ### [Use the Model](#Use-the-Model-with-ml5.js)
 
