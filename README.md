@@ -14,7 +14,7 @@ ITP 2019 Unconference Pix2Pix Workshop
 ![](https://cdn-images-1.medium.com/max/1600/1*QNZUc16K5Ooo8ZF0jaJJkQ.png)<br/>
 It should consist of:<br/>
 * 512x256 size (pairs of 256x256 images)
-* hundreds of images
+* hundreds of images (in same format)
 * identical direction (A to B || B to A)
 
 ### Tools
@@ -101,12 +101,12 @@ spell ls runs/YOUR_RUN_NUMBER
 spell ls runs/YOUR_RUN_NUMBER/output
 ```
 ### Test the model
-download test_images, locate into pix2pix-tensorflow root folder
+download test_images, locate into pix2pix-tensorflow root folder<br/>
 [download test images](https://drive.google.com/open?id=18nqpuMwmTJukUijx_Zi9d-tuM2NoeEGM)
 ```
 # in pix2pix-tensorflow root folder
-mkdir checkpoint
-cd checkpoint
+mkdir output
+cd output
 
 # Copy the result folder, takes ~5min
 spell cp runs/YOUR_RUN_NUMBER/output
@@ -121,6 +121,8 @@ python pix2pix.py \
 
 # After testing, you should be able to see output images in the facades_test folder by opening the `index.html` file in the browser
 ```
+### 🕒💸
+
 ## Demo:
 Edges2Pikachu: [https://yining1023.github.io/pix2pix_spell/edges2pikachu/](https://yining1023.github.io/pix2pix_spell/edges2pikachu/)
 
