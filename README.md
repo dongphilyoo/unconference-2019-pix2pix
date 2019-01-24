@@ -51,7 +51,7 @@ pip install tensorflow
 # make sure tensorflow installed
 python -c "import tensorflow; print(tensorflow.__version__)"
 ```
-#### Clone the repo
+### Clone the repo
 ```
 git clone https://github.com/affinelayer/pix2pix-tensorflow.git
 cd pix2pix-tensorflow
