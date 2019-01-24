@@ -128,6 +128,7 @@ python pix2pix.py \
 ```
 # export the model
 python pix2pix.py --mode export --output_dir export/ --checkpoint output/ --which_direction BtoA
+
 # It will create a new export folder
 
 # Port the model to tensorflow.js (python 2 doesn’t have tempfile, so use python3 instead)
@@ -136,7 +137,8 @@ cd static
 mkdir model
 cd ..
 python3 tools/export-checkpoint.py --checkpoint ../export --output_file static/model/YOUR_MODEL_NAME_BtoA.pict
-# You should be able to get a file named YOUR_MODEL_NAME_BtoA.pict
+
+# You should be able to get a file named YOUR_MODEL_NAME_BtoA.pict in /server/static/model/ folder.
 ```
 
 
