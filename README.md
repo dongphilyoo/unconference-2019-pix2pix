@@ -20,7 +20,6 @@ It should consist of:<br/>
 ### Tools
 [instagram-scraper](https://github.com/rarcega/instagram-scraper)<br/>
 [body-pix / person segmentation](https://github.com/tensorflow/tfjs-models/tree/master/body-pix)
-#### Download dataset
 
 ## Training
 ### Prerequisite
