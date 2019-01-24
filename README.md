@@ -51,6 +51,13 @@ pip install tensorflow
 # make sure tensorflow installed
 python -c "import tensorflow; print(tensorflow.__version__)"
 ```
+#### Install Spell CLI
+```
+pip install spell
+
+spell login
+spell whoami
+```
 ### Clone the repo
 ```
 git clone https://github.com/affinelayer/pix2pix-tensorflow.git
