@@ -4,7 +4,7 @@ ITP 2019 Unconference Pix2Pix Workshop
 ### [Pix2Pix](#Pix2Pix)
 ### [Data Preparation](#Create-own-dataset)
 ### [Training Pix2Pix](#Training)
-### [Use the Model](#Use-the-model-with-ml5.js)
+### [Use the Model](#Use-the-model-with-ml5)
 
 ## Pix2Pix
 ### What is it?
@@ -140,7 +140,7 @@ python3 tools/export-checkpoint.py --checkpoint ../export --output_file static/m
 
 # You should be able to get a file named YOUR_MODEL_NAME_BtoA.pict in /server/static/model/ folder.
 ```
-## Use the model with ml5.js
+## Use the model with ml5
 
 #### Download ported model (2000epochs)<br/>
 [model download](https://drive.google.com/open?id=1uoSIWccDP_vVFkeJRY6KqO16hgaesmIG)
