@@ -11,15 +11,48 @@ ITP 2019 Unconference Pix2Pix Workshop
 ### What it does?
 #### [Demo](https://dongphilyoo.github.io/pix2pix-ml5-demo/index.html)
 ## Create own dataset
+![](https://cdn-images-1.medium.com/max/1600/1*QNZUc16K5Ooo8ZF0jaJJkQ.png)
 ### Tools
 [instagram-scraper](https://github.com/rarcega/instagram-scraper)
 [body-pix / person segmentation](https://github.com/tensorflow/tfjs-models/tree/master/body-pix)
 #### Download dataset
 
 ## Training
+### Prerequisite
+#### Install Python3
+```
+# check python3 version
+python3 --version
+
+# install xcode
+xcode-select --install
+
+# install homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# check homebrew
+brew doctor
+
+# install python3 with homebrew
+brew install python3
+
+# check python3 version
+python3 --version
+```
+#### Install pip
+```
+python --version
+sudo easy_install pip
+```
 #### Install Tensorflow
-`pip install tensorflow`
+```
+pip install tensorflow
+```
 #### Clone the repo
+```
+git clone https://github.com/affinelayer/pix2pix-tensorflow.git
+cd pix2pix-tensorflow
+```
 `python --version`<br />
 `sudo easy_install pip`
 
