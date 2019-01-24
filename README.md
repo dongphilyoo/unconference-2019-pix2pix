@@ -13,7 +13,7 @@ ITP 2019 Unconference Pix2Pix Workshop
 ## Create own dataset
 ![](https://cdn-images-1.medium.com/max/1600/1*QNZUc16K5Ooo8ZF0jaJJkQ.png)
 ### Tools
-[instagram-scraper](https://github.com/rarcega/instagram-scraper)
+[instagram-scraper](https://github.com/rarcega/instagram-scraper)<br/>
 [body-pix / person segmentation](https://github.com/tensorflow/tfjs-models/tree/master/body-pix)
 #### Download dataset
 
@@ -47,14 +47,15 @@ sudo easy_install pip
 #### Install Tensorflow
 ```
 pip install tensorflow
+
+# make sure tensorflow installed
+python -c "import tensorflow; print(tensorflow.__version__)"
 ```
 #### Clone the repo
 ```
 git clone https://github.com/affinelayer/pix2pix-tensorflow.git
 cd pix2pix-tensorflow
 ```
-`python --version`<br />
-`sudo easy_install pip`
 
 ## Demo:
 Edges2Pikachu: [https://yining1023.github.io/pix2pix_spell/edges2pikachu/](https://yining1023.github.io/pix2pix_spell/edges2pikachu/)
