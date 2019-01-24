@@ -1,40 +1,29 @@
 # unconference-2019-pix2pix
-ITP 2019 Unconference Pix2Pix Workshop
-
-<br/>
+ITP 2019 Unconference Pix2Pix Workshop<br/>
 
 ### [Pix2Pix](#Pix2Pix)
 ### [Data Preparation](#Create-own-dataset)
 ### [Training Pix2Pix](#Training)
-### [Use the Model](#Use-the-model-with-ml5)
-
-<br/>
+### [Use the Model](#Use-the-model-with-ml5)<br/>
 
 
 ## Pix2Pix
 
 ### What is it?
-Pix2Pix, or Image-to-Image Translation, can learn how to convert images of one type into another type of new image. Pix2Pix uses a kind of generative algorithm called Conditional Adversarial Network(cGAN) where the generation process is “conditioned” on the input image.
+Pix2Pix, or Image-to-Image Translation, can learn how to convert images of one type into another type of new image. Pix2Pix uses a kind of generative algorithm called Conditional Adversarial Network(cGAN) where the generation process is “conditioned” on the input image.<br/>
 
-<br/>
-
-##### Pros
-<br/>
+##### Pros<br/>
 * no assumptions
 * learns the objective during training
 * requires small number of samples
-##### Cons
-<br/>
+##### Cons<br/>
 * overfitting to the training samples; repetitive || patchy
 
 ### What it does?
-[Interactive Demo - Christopher Hesse](https://affinelayer.com/pix2pix/)
-<br/>
+[Interactive Demo - Christopher Hesse](https://affinelayer.com/pix2pix/)<br/>
 [ML4A - Gene Kogan](https://ml4a.github.io/guides/Pix2Pix/)
 
-#### [What we will build?](https://dongphilyoo.github.io/pix2pix-ml5-demo/index.html)
-
-<br/>
+#### [What we will build?](https://dongphilyoo.github.io/pix2pix-ml5-demo/index.html)<br/>
 
 
 ## Create own dataset
@@ -47,11 +36,8 @@ It should consist of:<br/>
 * identical direction (A to B || B to A)
 
 ### Tools
-[instagram-scraper](https://github.com/rarcega/instagram-scraper)
-<br/>
-[body-pix / person segmentation](https://github.com/tensorflow/tfjs-models/tree/master/body-pix)
-
-<br/>
+[instagram-scraper](https://github.com/rarcega/instagram-scraper)<br/>
+[body-pix / person segmentation](https://github.com/tensorflow/tfjs-models/tree/master/body-pix)<br/>
 
 
 ## Training
@@ -173,7 +159,6 @@ python3 tools/export-checkpoint.py --checkpoint ../export --output_file static/m
 
 # You should be able to get a file named YOUR_MODEL_NAME_BtoA.pict in /server/static/model/ folder.
 ```
-
 <br/>
 
 ## Use the model with ml5
