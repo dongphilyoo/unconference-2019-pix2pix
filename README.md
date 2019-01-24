@@ -20,7 +20,7 @@ Pix2Pix, or Image-to-Image Translation, can learn how to convert images of one t
 * overfitting to the training samples; repetitive || patchy
 
 ### What it does?
-[Interactive Demo - Christopher Hesse](https://affinelayer.com/pix2pix/)<br/>
+[Interactive Demo - Christopher Hesse](https://affinelayer.com/pixsrv/)<br/>
 [ML4A - Gene Kogan](https://ml4a.github.io/guides/Pix2Pix/)
 
 #### [What we will build?](https://dongphilyoo.github.io/pix2pix-ml5-demo/index.html)<br/>
