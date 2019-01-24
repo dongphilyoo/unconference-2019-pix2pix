@@ -185,14 +185,14 @@ python -m SimpleHTTPServer
 # go to http://localhost:8000
 ```
 
-### acknowledgement
-Yining Shi's training process tutorial[https://github.com/yining1023/pix2pix_spell](https://github.com/yining1023/pix2pix_spell)<br/>
-spell
-pix2pix hd hi-res
-gene
-yinying
-pix2pix tensorflow
-ml5
-medium
-instagram
+### Acknowledgement
+Yining Shi's training process tutorial<br/>
+[https://github.com/yining1023/pix2pix_spell](https://github.com/yining1023/pix2pix_spell)<br/>
 
+### Resources
+[Spell Documentation](https://www.spell.run/docs/home)<br/>
+[NVIDIA pix2pixHD](https://github.com/NVIDIA/pix2pixHD)<br/>
+[pix2pix tensorflow implementation](https://affinelayer.com/pix2pix/)<br/>
+[ml5.js pix2pix](https://ml5js.org/docs/Pix2Pix)<br/>
+[Medium Post](https://medium.com/@dongphilyoo/how-to-train-pix2pix-model-and-generating-on-the-web-with-ml5-js-87d879fb4224)<br/>
+[humansofnowhere](https://dongphilyoo.github.io/humansofnowhere/index.html)
