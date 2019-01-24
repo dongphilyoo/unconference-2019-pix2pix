@@ -101,6 +101,8 @@ spell ls runs/YOUR_RUN_NUMBER
 spell ls runs/YOUR_RUN_NUMBER/output
 ```
 ### Test the model
+download test_images, locate into pix2pix-tensorflow root folder
+[download test images](https://drive.google.com/open?id=18nqpuMwmTJukUijx_Zi9d-tuM2NoeEGM)
 ```
 # in pix2pix-tensorflow root folder
 mkdir checkpoint
