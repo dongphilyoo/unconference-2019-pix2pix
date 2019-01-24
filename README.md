@@ -10,9 +10,9 @@ ITP 2019 Unconference Pix2Pix Workshop<br/>
 ## Pix2Pix
 
 ### What is it?
-Pix2Pix, or Image-to-Image Translation, can learn how to convert images of one type into another type of new image. Pix2Pix uses a kind of generative algorithm called Conditional Adversarial Network(cGAN) where the generation process is “conditioned” on the input image. It learns a mapping from an input image to an output image.<br/>
-<img src="https://i.imgur.com/bSxuOv0.png" width="50%"/>
-<img src="https://i.imgur.com/Uqi85JA.png" width="50%"/>
+Pix2Pix, or Image-to-Image Translation, can learn how to convert images of one type into another type of new image. Pix2Pix uses a kind of generative algorithm called Conditional Adversarial Network(cGAN) where the generation process is “conditioned” on the input image. It learns a mapping from an input image to an output image.<br/><br/>
+<img src="https://i.imgur.com/bSxuOv0.png" width="49%"/>
+<img src="https://i.imgur.com/Uqi85JA.png" width="49%"/>
 
 ##### Pros<br/>
 * no assumptions
