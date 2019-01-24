@@ -89,7 +89,7 @@ cd pix2pix-tensorflow
 open .
 ```
 #### Download dataset
-[download](https://drive.google.com/drive/folders/1q_1yrHXaORVtu-9j2XXMviSRSK5NEraJ?usp=sharing)(24MB, 277 images)<br/>
+[download](https://drive.google.com/open?id=1qh5wnj7i06Yl7Q3fWpdOGhh9Izk6_kNp)(24MB, 277 images)<br/>
 ```
 # move downloaded folder to pix2pix-tensorflow folder
 
@@ -121,7 +121,7 @@ spell ls runs/YOUR_RUN_NUMBER/output
 ```
 ### Test the model
 download test_images, locate into pix2pix-tensorflow root folder<br/>
-[download test images](https://drive.google.com/open?id=18nqpuMwmTJukUijx_Zi9d-tuM2NoeEGM)
+[download test images](https://drive.google.com/open?id=1mZ9SjUAcTZuZjHiIwjGUzoxP3mpe80Ka)
 ```
 # in pix2pix-tensorflow root folder
 mkdir output
