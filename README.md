@@ -45,6 +45,8 @@ It should consist of:<br/>
 ## Training
 
 ### Prerequisite
+## downgrade python3
+[https://chriscummins.cc/2018/brew-python-downgrade/](https://chriscummins.cc/2018/brew-python-downgrade/)
 #### Install Python3
 ```
 # check python3 version
