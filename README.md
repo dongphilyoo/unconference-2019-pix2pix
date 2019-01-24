@@ -7,7 +7,8 @@ ITP 2019 Unconference Pix2Pix Workshop
 ### [Use the Model](#Use-the-Model-with-ml5.js)
 
 # Pix2Pix
-Use Spell to train a pix2pix model, run the model in tensorflow.js and ml5.js
+## What is it?
+## What it does?
 
 ## Demo:
 Edges2Pikachu: [https://yining1023.github.io/pix2pix_spell/edges2pikachu/](https://yining1023.github.io/pix2pix_spell/edges2pikachu/)
