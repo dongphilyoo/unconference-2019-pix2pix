@@ -11,7 +11,11 @@ ITP 2019 Unconference Pix2Pix Workshop
 ### What it does?
 #### [Demo](https://dongphilyoo.github.io/pix2pix-ml5-demo/index.html)
 ## Create own dataset
-![](https://cdn-images-1.medium.com/max/1600/1*QNZUc16K5Ooo8ZF0jaJJkQ.png)
+![](https://cdn-images-1.medium.com/max/1600/1*QNZUc16K5Ooo8ZF0jaJJkQ.png)<br/>
+It should consists of:<br/>
+* 512x256 size (pairs of 256x256 images)
+* hundreds of images
+
 ### Tools
 [instagram-scraper](https://github.com/rarcega/instagram-scraper)<br/>
 [body-pix / person segmentation](https://github.com/tensorflow/tfjs-models/tree/master/body-pix)
@@ -65,8 +69,15 @@ cd pix2pix-tensorflow
 open .
 ```
 #### Download dataset
-[download](https://drive.google.com/drive/folders/1q_1yrHXaORVtu-9j2XXMviSRSK5NEraJ?usp=sharing)<br/>
-move downloaded folder to pix2pix-tensorflow folder
+[download](https://drive.google.com/drive/folders/1q_1yrHXaORVtu-9j2XXMviSRSK5NEraJ?usp=sharing)(24MB, 277 images)<br/>
+```
+# move downloaded folder to pix2pix-tensorflow folder
+
+# Let spell know the newly downloaded dataset
+git add .
+git commit -m "added input image data"
+```
+
 
 ## Demo:
 Edges2Pikachu: [https://yining1023.github.io/pix2pix_spell/edges2pikachu/](https://yining1023.github.io/pix2pix_spell/edges2pikachu/)
