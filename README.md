@@ -6,11 +6,28 @@ ITP 2019 Unconference Pix2Pix Workshop
 ### [Training Pix2Pix](#Training)
 ### [Use the Model](#Use-the-model-with-ml5)
 
+
 ## Pix2Pix
+
 ### What is it?
+Pix2Pix, or Image-to-Image Translation, can learn how to convert images of one type into another type of new image. Pix2Pix uses a kind of generative algorithm called Conditional Adversarial Network(cGAN) where the generation process is “conditioned” on the input image.<br/>
+
+##### Pros<br/>
+* no assumptions
+* learns the objective during training
+* requires small number of samples
+##### Cons<br/>
+* overfitting to the training samples; repetitive || patchy
+
 ### What it does?
+[](https://affinelayer.com/pix2pix/)
+[](https://ml4a.github.io/guides/Pix2Pix/)
+
 #### [Demo](https://dongphilyoo.github.io/pix2pix-ml5-demo/index.html)
+
+
 ## Create own dataset
+
 ![](https://cdn-images-1.medium.com/max/1600/1*QNZUc16K5Ooo8ZF0jaJJkQ.png)<br/>
 It should consist of:<br/>
 * 512x256 size (pairs of 256x256 images)
@@ -21,7 +38,9 @@ It should consist of:<br/>
 [instagram-scraper](https://github.com/rarcega/instagram-scraper)<br/>
 [body-pix / person segmentation](https://github.com/tensorflow/tfjs-models/tree/master/body-pix)
 
+
 ## Training
+
 ### Prerequisite
 #### Install Python3
 ```
