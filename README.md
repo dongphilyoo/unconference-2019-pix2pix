@@ -121,7 +121,7 @@ python pix2pix.py \
 
 # After testing, you should be able to see output images in the facades_test folder by opening the `index.html` file in the browser
 ```
-### 🕒💸
+### Wanna fairly decent result? 🕒💸 is the key.
 ![](https://i.imgur.com/wUknw0X.jpg)
 
 ## Demo:
