@@ -185,8 +185,8 @@ python -m SimpleHTTPServer
 # go to http://localhost:8000
 ```
 
-
-
+### acknowledgement
+Yining Shi's training process tutorial[https://github.com/yining1023/pix2pix_spell](https://github.com/yining1023/pix2pix_spell)<br/>
 spell
 pix2pix hd hi-res
 gene
