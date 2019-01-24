@@ -70,7 +70,6 @@ cd pix2pix-tensorflow
 open .
 ```
 #### Download dataset
-<a href="https://drive.google.com/drive/folders/1q_1yrHXaORVtu-9j2XXMviSRSK5NEraJ?usp=sharing" target="_blank">download(24MB, 277 images)</a><br/>
 [download](https://drive.google.com/drive/folders/1q_1yrHXaORVtu-9j2XXMviSRSK5NEraJ?usp=sharing)(24MB, 277 images)<br/>
 ```
 # move downloaded folder to pix2pix-tensorflow folder
@@ -96,12 +95,30 @@ spell run --machine-type V100 \
           --which_direction BtoA \
           --ngf 32 --ndf 32"
 
-# After the run is finished (1h, 8m, 16s)
+# After the run is finished (~5min)
 # check out the result 
 spell ls runs/YOUR_RUN_NUMBER
-spell ls runs/YOUR_RUN_NUMBER/facades_train
+spell ls runs/YOUR_RUN_NUMBER/output
 ```
+### Test the model
+```
+# in pix2pix-tensorflow root folder
+mkdir checkpoint
+cd checkpoint
 
+# Copy the result folder, takes ~5min
+spell cp runs/YOUR_RUN_NUMBER/output
+
+# test the model
+cd ..
+python pix2pix.py \
+     --mode test \
+     --output_dir model_test \
+     --input_dir test_images \
+     --checkpoint checkpoint
+
+# After testing, you should be able to see output images in the facades_test folder by opening the `index.html` file in the browser
+```
 ## Demo:
 Edges2Pikachu: [https://yining1023.github.io/pix2pix_spell/edges2pikachu/](https://yining1023.github.io/pix2pix_spell/edges2pikachu/)
 
