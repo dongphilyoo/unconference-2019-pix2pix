@@ -6,16 +6,22 @@ ITP 2019 Unconference Pix2Pix Workshop
 ### [Training Pix2Pix](#Training)
 ### [Use the Model](#Use-the-Model-with-ml5.js)
 
-# Pix2Pix
-## What is it?
-## What it does?
+## Pix2Pix
+### What is it?
+### What it does?
+#### [Demo](https://dongphilyoo.github.io/pix2pix-ml5-demo/index.html)
+## Create own dataset
+### Tools
+[instagram-scraper](https://github.com/rarcega/instagram-scraper)
+[body-pix / person segmentation](https://github.com/tensorflow/tfjs-models/tree/master/body-pix)
+#### Download dataset
 
-# Create own dataset
-## Tools
-### Download Dataset
-
-# Training
-##
+## Training
+#### Install Tensorflow
+`pip install tensorflow`
+#### Clone the repo
+`python --version`<br />
+`sudo easy_install pip`
 
 ## Demo:
 Edges2Pikachu: [https://yining1023.github.io/pix2pix_spell/edges2pikachu/](https://yining1023.github.io/pix2pix_spell/edges2pikachu/)
@@ -23,6 +29,7 @@ Edges2Pikachu: [https://yining1023.github.io/pix2pix_spell/edges2pikachu/](https
 ## Training a Edges2Pikachu model: see instructions [https://github.com/yining1023/pix2pix_tensorflowjs_lite](https://github.com/yining1023/pix2pix_tensorflowjs_lite)
 
 ## Training a Label2Facades model with [Spell](http://spell.run)
+
 
 ```
 # make sure you have Tensorflow 0.12.1 installed first
