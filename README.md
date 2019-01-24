@@ -12,9 +12,10 @@ ITP 2019 Unconference Pix2Pix Workshop
 #### [Demo](https://dongphilyoo.github.io/pix2pix-ml5-demo/index.html)
 ## Create own dataset
 ![](https://cdn-images-1.medium.com/max/1600/1*QNZUc16K5Ooo8ZF0jaJJkQ.png)<br/>
-It should consists of:<br/>
+It should consist of:<br/>
 * 512x256 size (pairs of 256x256 images)
 * hundreds of images
+* identical direction (A to B || B to A)
 
 ### Tools
 [instagram-scraper](https://github.com/rarcega/instagram-scraper)<br/>
@@ -69,6 +70,7 @@ cd pix2pix-tensorflow
 open .
 ```
 #### Download dataset
+<a href="https://drive.google.com/drive/folders/1q_1yrHXaORVtu-9j2XXMviSRSK5NEraJ?usp=sharing" target="_blank">download(24MB, 277 images)</a><br/>
 [download](https://drive.google.com/drive/folders/1q_1yrHXaORVtu-9j2XXMviSRSK5NEraJ?usp=sharing)(24MB, 277 images)<br/>
 ```
 # move downloaded folder to pix2pix-tensorflow folder
@@ -77,7 +79,28 @@ open .
 git add .
 git commit -m "added input image data"
 ```
+### Train the model
+```
+# train the model
 
+# If you add `--ngf 32 --ndf 32` when training the model, the output model will be smaller, and it will take less time to train.
+# The command reduces the number of filters on generator and discriminator from 64(default) to 32.
+
+spell run --machine-type V100 \
+          --framework tensorflow \
+          "python pix2pix.py \
+          --mode train \
+          --input_dir input \
+          --output_dir output \
+          --max_epochs 50 \
+          --which_direction BtoA \
+          --ngf 32 --ndf 32"
+
+# After the run is finished (1h, 8m, 16s)
+# check out the result 
+spell ls runs/YOUR_RUN_NUMBER
+spell ls runs/YOUR_RUN_NUMBER/facades_train
+```
 
 ## Demo:
 Edges2Pikachu: [https://yining1023.github.io/pix2pix_spell/edges2pikachu/](https://yining1023.github.io/pix2pix_spell/edges2pikachu/)
@@ -156,3 +179,14 @@ python3 tools/export-checkpoint.py --checkpoint ../export --output_file static/m
 ```
 
 # Create own dataset
+
+
+
+pix2pix hd hi-res
+gene
+yinying
+pix2pix tensorflow
+ml5
+medium
+instagram
+
