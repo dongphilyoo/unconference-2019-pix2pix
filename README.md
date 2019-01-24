@@ -191,6 +191,7 @@ Yining Shi's training process tutorial<br/>
 
 ### Resources
 [Spell Documentation](https://www.spell.run/docs/home)<br/>
+[pix2pix original paper](https://arxiv.org/pdf/1611.07004.pdf)<br/>
 [NVIDIA pix2pixHD (Pytorch)](https://github.com/NVIDIA/pix2pixHD)<br/>
 [NVIDIA vid2vid (Pytorch)](https://github.com/NVIDIA/vid2vid)<br/>
 [pix2pix tensorflow implementation](https://affinelayer.com/pix2pix/)<br/>
