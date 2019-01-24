@@ -148,6 +148,14 @@ python3 tools/export-checkpoint.py --checkpoint ../export --output_file static/m
 ### Clone repo
 ```
 git clone https://github.com/dongphilyoo/pix2pix-ml5-demo.git
+cd pix2pix-ml5-demo
+cd model
+
+# copy downloaded model to the model folder
+cp /PATH/TO/SOURCE/FILE .
+
+# open app.js in editor, put the model file path into the line:
+# pix2pix = ml5.pix2pix('model/model_BtoA_2000.pict', modelLoaded);
 ```
 
 
