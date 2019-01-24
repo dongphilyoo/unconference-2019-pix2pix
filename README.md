@@ -117,12 +117,36 @@ python pix2pix.py \
      --mode test \
      --output_dir model_test \
      --input_dir test_images \
-     --checkpoint checkpoint
+     --checkpoint output
 
 # After testing, you should be able to see output images in the facades_test folder by opening the `index.html` file in the browser
 ```
 ### Wanna fairly decent result? 🕒💸 is the key.
 ![](https://i.imgur.com/wUknw0X.jpg)
+
+### Export the model
+```
+# export the model
+python pix2pix.py --mode export --output_dir export/ --checkpoint output/ --which_direction BtoA
+# It will create a new export folder
+
+# Port the model to tensorflow.js (python 2 doesn’t have tempfile, so use python3 instead)
+cd server
+cd static
+mkdir model
+cd ..
+python3 tools/export-checkpoint.py --checkpoint ../export --output_file static/model/YOUR_MODEL_NAME_BtoA.pict
+# You should be able to get a file named YOUR_MODEL_NAME_BtoA.pict
+```
+
+
+
+
+
+
+
+
+
 
 ## Demo:
 Edges2Pikachu: [https://yining1023.github.io/pix2pix_spell/edges2pikachu/](https://yining1023.github.io/pix2pix_spell/edges2pikachu/)
