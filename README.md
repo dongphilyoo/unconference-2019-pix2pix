@@ -1,8 +1,12 @@
 # unconference-2019-pix2pix
 ITP 2019 Unconference Pix2Pix Workshop
 
+### [Pix2Pix](#Pix2Pix)
+### [Data Preperation](#Create-own-dataset)
+### [Training Pix2Pix](#Training)
+### [Use the Model](#Use-the-Model-with-ml5.js)
 
-# [pix2pix](#Demo)
+# Pix2Pix
 Use Spell to train a pix2pix model, run the model in tensorflow.js and ml5.js
 
 ## Demo:
